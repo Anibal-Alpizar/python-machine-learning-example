@@ -44,7 +44,7 @@ def scale_dataset(dataframe, oversample=False):
     return data, x, y
 
 
-# print(len(train[train["class"] == 1])) # gamma
-# print(len(train[train["class"] == 0]))
+print(len(train[train["class"] == 1])) # gamma
+print(len(train[train["class"] == 0]))
 
 train, x_train, y_train = scale_dataset(train, oversample=True)
